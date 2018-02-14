@@ -85,43 +85,43 @@ Filename: "{app}\{#AppExeName}"; WorkingDir: "{app}"; Flags: nowait postinstall 
 
 [CustomMessages]
 en.OldInstallError=Another MY-SDK installation detected.%nIt is not allowed to have multiple copies of SDK on your computer.%n%nDo you wish to uninstall the previous version?%nPressing No will terminate the Setup.
-ru.OldInstallError=Обнаружена другая установка MY-SDK.%nПрисутствие нескольких копий SDK на одном компьютере не допускается.%n%nЖелаете удалить существующую версию?%nНажатие кнопки Нет приведет к отмене установки.
+ru.OldInstallError=РћР±РЅР°СЂСѓР¶РµРЅР° РґСЂСѓРіР°СЏ СѓСЃС‚Р°РЅРѕРІРєР° MY-SDK.%nРџСЂРёСЃСѓС‚СЃС‚РІРёРµ РЅРµСЃРєРѕР»СЊРєРёС… РєРѕРїРёР№ SDK РЅР° РѕРґРЅРѕРј РєРѕРјРїСЊСЋС‚РµСЂРµ РЅРµ РґРѕРїСѓСЃРєР°РµС‚СЃСЏ.%n%nР–РµР»Р°РµС‚Рµ СѓРґР°Р»РёС‚СЊ СЃСѓС‰РµСЃС‚РІСѓСЋС‰СѓСЋ РІРµСЂСЃРёСЋ?%nРќР°Р¶Р°С‚РёРµ РєРЅРѕРїРєРё РќРµС‚ РїСЂРёРІРµРґРµС‚ Рє РѕС‚РјРµРЅРµ СѓСЃС‚Р°РЅРѕРІРєРё.
 en.MaintenanceWindowTitle=MY-SDK Maintenance
 en.MaintenanceWindowText=Setup has detected another MY-SDK installation.%nChoose an option to continue
-ru.MaintenanceWindowTitle=Обслуживание MY-SDK
-ru.MaintenanceWindowText=Обнаружена установленная копия MY-SDK.%nВыберите опцию для продолжения
+ru.MaintenanceWindowTitle=РћР±СЃР»СѓР¶РёРІР°РЅРёРµ MY-SDK
+ru.MaintenanceWindowText=РћР±РЅР°СЂСѓР¶РµРЅР° СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅР°СЏ РєРѕРїРёСЏ MY-SDK.%nР’С‹Р±РµСЂРёС‚Рµ РѕРїС†РёСЋ РґР»СЏ РїСЂРѕРґРѕР»Р¶РµРЅРёСЏ
 en.MaintenanceReadyWindowTitle=Ready for maintenance
 en.MaintenanceReadyWindowText=Setup is now ready to perform the selected actions for MY-SDK
-ru.MaintenanceReadyWindowTitle=Всё готово к обслуживанию
-ru.MaintenanceReadyWindowText=Программа установки готова к выполнению выбранных операций для MY-SDK
+ru.MaintenanceReadyWindowTitle=Р’СЃС‘ РіРѕС‚РѕРІРѕ Рє РѕР±СЃР»СѓР¶РёРІР°РЅРёСЋ
+ru.MaintenanceReadyWindowText=РџСЂРѕРіСЂР°РјРјР° СѓСЃС‚Р°РЅРѕРІРєРё РіРѕС‚РѕРІР° Рє РІС‹РїРѕР»РЅРµРЅРёСЋ РІС‹Р±СЂР°РЅРЅС‹С… РѕРїРµСЂР°С†РёР№ РґР»СЏ MY-SDK
 en.UpdateReadyText=Click Update to continue with the installation.
-ru.UpdateReadyText=Нажмите "Обновить", чтобы продолжить.
+ru.UpdateReadyText=РќР°Р¶РјРёС‚Рµ "РћР±РЅРѕРІРёС‚СЊ", С‡С‚РѕР±С‹ РїСЂРѕРґРѕР»Р¶РёС‚СЊ.
 en.ReinstallReadyText=Click Reinstall to continue with the installation.
-ru.ReinstallReadyText=Нажмите "Переустановить", чтобы продолжить.
+ru.ReinstallReadyText=РќР°Р¶РјРёС‚Рµ "РџРµСЂРµСѓСЃС‚Р°РЅРѕРІРёС‚СЊ", С‡С‚РѕР±С‹ РїСЂРѕРґРѕР»Р¶РёС‚СЊ.
 en.RemoveReadyText=Click Remove to continue with the installation.
-ru.RemoveReadyText=Нажмите "Удалить", чтобы продолжить.
+ru.RemoveReadyText=РќР°Р¶РјРёС‚Рµ "РЈРґР°Р»РёС‚СЊ", С‡С‚РѕР±С‹ РїСЂРѕРґРѕР»Р¶РёС‚СЊ.
 en.HintReadyText=If you wish to choose another option, click Back.
-ru.HintReadyText=Если вы хотите изменить выбор, нажмите "Назад".
+ru.HintReadyText=Р•СЃР»Рё РІС‹ С…РѕС‚РёС‚Рµ РёР·РјРµРЅРёС‚СЊ РІС‹Р±РѕСЂ, РЅР°Р¶РјРёС‚Рµ "РќР°Р·Р°Рґ".
 en.UpdateButtonText=Update
 en.UpdateLabelText=Update current MY-SDK installation to the newest version.
-ru.UpdateButtonText=Обновить
-ru.UpdateLabelText=Обновить текущую установку MY-SDK  до последней версии.
+ru.UpdateButtonText=РћР±РЅРѕРІРёС‚СЊ
+ru.UpdateLabelText=РћР±РЅРѕРІРёС‚СЊ С‚РµРєСѓС‰СѓСЋ СѓСЃС‚Р°РЅРѕРІРєСѓ MY-SDK  РґРѕ РїРѕСЃР»РµРґРЅРµР№ РІРµСЂСЃРёРё.
 en.ReinstallButtonText=Reinstall
 en.ReinstallReadyButtonText=Reinstall
 en.ReinstallLabelText=Remove current version of MY-SDK and install the newest version.
-ru.ReinstallButtonText=Переустановить
-ru.ReinstallReadyButtonText=Переустан
-ru.ReinstallLabelText=Удалить текущую версию MY-SDK и установить новую версию.
+ru.ReinstallButtonText=РџРµСЂРµСѓСЃС‚Р°РЅРѕРІРёС‚СЊ
+ru.ReinstallReadyButtonText=РџРµСЂРµСѓСЃС‚Р°РЅ
+ru.ReinstallLabelText=РЈРґР°Р»РёС‚СЊ С‚РµРєСѓС‰СѓСЋ РІРµСЂСЃРёСЋ MY-SDK Рё СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РЅРѕРІСѓСЋ РІРµСЂСЃРёСЋ.
 en.RemoveButtonText=Remove
 en.RemoveLabelText=Completely remove existing MY-SDK installation and exit.
-ru.RemoveButtonText=Удалить
-ru.RemoveLabelText=Полностью удалить текущую версию MY-SDK и выйти.
+ru.RemoveButtonText=РЈРґР°Р»РёС‚СЊ
+ru.RemoveLabelText=РџРѕР»РЅРѕСЃС‚СЊСЋ СѓРґР°Р»РёС‚СЊ С‚РµРєСѓС‰СѓСЋ РІРµСЂСЃРёСЋ MY-SDK Рё РІС‹Р№С‚Рё.
 en.CurrentInstallPath=MY-SDK location:%n
-ru.CurrentInstallPath=Текущее расположение MY-SDK:%n
+ru.CurrentInstallPath=РўРµРєСѓС‰РµРµ СЂР°СЃРїРѕР»РѕР¶РµРЅРёРµ MY-SDK:%n
 en.VersionLabelText=Version:
-ru.VersionLabelText=Версия:
+ru.VersionLabelText=Р’РµСЂСЃРёСЏ:
 en.UpdatePopupText=Preparing for update...
-ru.UpdatePopupText=Подготовка к обновлению...
+ru.UpdatePopupText=РџРѕРґРіРѕС‚РѕРІРєР° Рє РѕР±РЅРѕРІР»РµРЅРёСЋ...
 
 [InstallDelete]
 
