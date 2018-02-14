@@ -43,6 +43,7 @@ On successful build, the package will appear in the *installer/* folder with the
 #### Installation package features
 
 - **Universal**: you may easily change anything you want in the scrips to vary the package for your needs
+- **Platform-independing**: script made the way you do not need to make any changes to get this working on the 32- or 64-bit machine - automatic bitness detection is on.
 - **Updatable**: scripts configured for your easy and fast rebuild of your product and deliver it your clients. The package is configured for updating, removing and re-installing the current installations of your product 
 
 
