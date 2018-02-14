@@ -1,0 +1,24 @@
+Project structure:
+
+.
+├── README.md
+├── eclipse                      - directory of Eclipse distributions and plugins
+│   ├── eclipse_32                   - 32-bit distribution
+│   ├── eclipse_64                   - 64-bit distribution
+│   └── plugins                      - Eclipse plugins
+├── my_toolchain                 - custom toolchain location
+└── installer                    - installer pakcage directory
+    ├── builder.bat                  - main builder script
+    ├── builder_win.py               - python module script
+    ├── sdk.iss                      - 64-bit installer script for Inno Setup compiler
+    ├── sdk32.iss                    - 32-bit installer script for Inno Setup compiler
+    ├── script_src                   - additional package files (you may add any files that not included in your toolchain)
+    │   ├── license.txt                  - SDK license installer info page
+    │   ├── sdk_contents.txt             - SDK contents installer info page
+    │   ├── redist                       - JRE distribution
+    │   │   ├── jre-x86.tar.gz
+    │   │   └── jre-x86_64.tar.gz
+    │   └── scripts                      - additional SDK files
+    │       └── sdkcmd.bat                   - toolchain Command Prompt setup script (sets necessary environment variables to make toolchain work)
+    ├── sdk-version                  - 64-bit installer version file (auto-updating)
+    └── sdk-version32                - 32-bit installer version file (auto-updating)

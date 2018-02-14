@@ -1,0 +1,5 @@
+MY-SDK toolchain vVERSION includes:
+
+    - (anything you want to mention)
+    - IDE Eclipse
+    - Java Runtime Environment 1.8.0 update 151

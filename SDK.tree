@@ -1,0 +1,12 @@
+Final SDK installation structure:
+
+.
+├── (number of Eclipse distribution files)
+├── jre                           - JRE distribution to make Eclipse work
+├── my-ide                        - your custom toolchain location
+│   ├── lib                           - toolchain and Cygwin libraries folder
+│   ├── usr                           - toolchain and Cygwin additional files folder
+│   └── (your toolchain structure)
+├── uninsXXX.exe                  - uninstall utility
+├── VERSION                       - SDK build version file
+└── sdkcmd.bat
